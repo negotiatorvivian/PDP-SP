@@ -169,7 +169,6 @@ class FactorGraphTrainerBase:
                     graph_map.long(),
                     edge_feature.squeeze(1),
                     torch.Size([sum(variable_num), sum(function_num)]),
-                    device=self._device,
                 )
 
                 self._train_batch(

@@ -156,10 +156,7 @@ class FactorGraphDataset(data.Dataset):
 
         variable_ind = np.abs(np.array(input_data[1], dtype=np.int32)) - 1
         function_ind = np.abs(np.array(input_data[2], dtype=np.int32)) - 1
-        if len(input_data) > 3:
-            edge_feature = np.array(input_data[3])
-        else:
-            edge_feature = np.sign(np.array(input_data[1], dtype=np.float32))
+        edge_feature = np.sign(np.array(input_data[1], dtype=np.float32))
         graph_map = np.stack((variable_ind, function_ind))
         alpha = float(function_num) / variable_num
 
