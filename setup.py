@@ -18,7 +18,7 @@ setup(
     author="Saeed Amizadeh",
     author_email="saamizad@microsoft.com",
     description="PDP Framework for Neural Constraint Satisfaction Solving",
-    long_description=_read('./README.md'),
+    # long_description=_read('./README.md'),
     long_description_content_type='text/markdown',
     keywords="pdp sat solver pytorch neurosymbolic",
     license="MIT",

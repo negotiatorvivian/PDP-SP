@@ -2,10 +2,10 @@ model_name: "p-prodec2-sp-cnf-3-10-pytorch"
 model_type: "p-d-p"
 version: "2.0"
 has_meta_data: true
-train_path: ["/Users/zhangziwei/workspace/python/PDP-Solver/datasets/output.json"]
-validation_path: ["/Users/zhangziwei/workspace/python/PDP-Solver/datasets/output.json"]
-test_path: ["/Users/zhangziwei/workspace/python/PDP-Solver/datasets/output.json"] #["../../datasets/SAT/4SAT-test"] #  ["../../datasets/SAT/cnf-10.json"] #
-model_path: "/Users/zhangziwei/workspace/python/PDP-Solver/Trained-models/SAT"
+train_path: ["datasets/output.json"]
+validation_path: ["datasets/output.json"]
+test_path: ["datasets/output.json"] #["../../datasets/SAT/4SAT-test"] #  ["../../datasets/SAT/cnf-10.json"] #
+model_path: "Trained-models/SAT"
 repetition_num: 1
 train_epoch_size: 200000
 #epoch_num: 500
